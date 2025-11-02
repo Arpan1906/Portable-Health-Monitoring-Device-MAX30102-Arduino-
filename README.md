@@ -46,15 +46,15 @@ The MAX30102 is an integrated sensor module that acts as a heart rate monitor an
 
 <img width="470" height="426" alt="MAX30102-Module-Pinout" src="https://github.com/user-attachments/assets/1d740e20-63be-4788-a6bf-865efb6f4de9" />
 
-Technical Specifications
+Technical Specifications -->
 Here are the technical specifications:
 
-Power supply	-- 3.3V to 5.5V
-Current draw	-- ~600μA (during measurements)~0.7μA (during standby mode)
-Red LED Wavelength	-- 660nm
-IR LED Wavelength	-- 880nm
-Temperature Range	-40˚C to +85˚C
-Temperature Accuracy	±1˚C
+- Power supply	-- 3.3V to 5.5V
+- Current draw	-- ~600μA (during measurements)~0.7μA (during standby mode)
+- Red LED Wavelength	-- 660nm
+- IR LED Wavelength	-- 880nm
+- Temperature Range	-40˚C to +85˚C
+- Temperature Accuracy	±1˚C
 
 How it works -->
 - Integrated components: It combines an integrated pulse oximeter and heart rate sensor into a single module, with internal LEDs (red and infrared), photodetectors, and low-noise electronics.
