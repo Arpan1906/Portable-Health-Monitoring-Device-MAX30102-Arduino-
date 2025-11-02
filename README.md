@@ -102,3 +102,7 @@ The absorption-spectrum graph below shows how oxygenated hemoglobin and deoxygen
 By comparing how much red light and how much infrared light is absorbed, the MAX30102 can calculate what percentage of your hemoglobin is carrying oxygen. This percentage is your SpO2 level, which indicates how well-oxygenated your blood is.
 
 <img width="557" height="362" alt="Absorption-Spectrum-of-Hb-and-HbO2" src="https://github.com/user-attachments/assets/d674f44d-0b36-4f1d-a3aa-b5fed1b0a40c" />
+
+
+# Video Presentation
+Link - ![YouTube](https://youtu.be/Zvhejq2pKcI?si=6f5SvCnFc173LdaP)
