@@ -105,4 +105,4 @@ By comparing how much red light and how much infrared light is absorbed, the MAX
 
 
 # Video Presentation
-Link - ![YouTube](https://youtu.be/Zvhejq2pKcI?si=6f5SvCnFc173LdaP)
+Link - [YouTube](https://youtu.be/Zvhejq2pKcI?si=6f5SvCnFc173LdaP)
