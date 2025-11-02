@@ -71,17 +71,24 @@ The MAX30102 is an optical sensor that measures heart rate and blood oxygen leve
 These two wavelengths interact differently with oxygenated and deoxygenated blood. By shining both lights through a thin part of the body, such as a fingertip or earlobe, the sensor detects variations in the amount of light absorbed and reflected. The photodetector captures these changes, and the data is processed using a technique called Photoplethysmography (PPG)—a method for measuring blood volume fluctuations caused by the heartbeat.
 
 In essence, the MAX30102 converts tiny changes in light absorption into accurate readings of pulse rate and SpO₂ levels, making it ideal for compact and non-invasive health monitoring applications.
+
+<img width="358" height="274" alt="MAX30102-Pulse-Detection-Photoplethysmogram" src="https://github.com/user-attachments/assets/839bee05-1053-46b2-9ad3-21ad069393e2" />
+
+
 # Measuring Your Heart Rate
 Your blood transports oxygen using a protein called hemoglobin. When hemoglobin is carrying oxygen—called oxygenated hemoglobin (HbO₂)—it absorbs more infrared light.
 
 With each heartbeat, oxygen-rich blood flows into your fingertip, increasing the amount of oxygenated hemoglobin. As a result, more infrared light is absorbed, and less light is reflected back to the photodetector.
 
 Between heartbeats, the oxygen level in your fingertip slightly decreases, causing less infrared light to be absorbed and more light to reach the detector. These tiny variations in light intensity help the sensor determine both heart rate and oxygen saturation (SpO₂). By continuously shining the infrared light and measuring these changes in the amount of light detected, the sensor can see a pattern that matches your heartbeat. It counts these “pulses” of changing light intensity to calculate how many times your heart beats per minute – your heart rate!
+
 <img width="600" height="332" alt="Pulse-Detection-Heart-Rate-Sensor-Working-Photoplethysmogram" src="https://github.com/user-attachments/assets/099149b5-fda4-4b55-be7d-8f550767da03" />
+
 # Measuring Blood Oxygen Levels (Pulse Oximetry)
 To measure the oxygen level in your blood, the MAX30102 cleverly uses both the red and infrared lights. The key idea here is that oxygenated hemoglobin (HbO2) and deoxygenated hemoglobin (Hb) absorb light differently:
 - Oxygenated hemoglobin absorbs more infrared light (880nm)
 - Deoxygenated hemoglobin absorbs more red light (660nm)
 The absorption-spectrum graph below shows how oxygenated hemoglobin and deoxygenated hemoglobin absorb different wavelengths of light at different rates.
 By comparing how much red light and how much infrared light is absorbed, the MAX30102 can calculate what percentage of your hemoglobin is carrying oxygen. This percentage is your SpO2 level, which indicates how well-oxygenated your blood is.
+
 <img width="557" height="362" alt="Absorption-Spectrum-of-Hb-and-HbO2" src="https://github.com/user-attachments/assets/d674f44d-0b36-4f1d-a3aa-b5fed1b0a40c" />
