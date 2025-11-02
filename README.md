@@ -1,5 +1,6 @@
 # Portable-Health-Monitoring-Device-MAX30102-Arduino-
 An Arduino Nano-based pulse oximeter and heart rate monitor using the MAX30102 sensor and a 0.96” OLED display. Displays SpO₂ and BPM in real-time, with push-button control and buzzer alerts. Compact, low-cost prototype for health monitoring and biomedical applications.
+
 ![WhatsApp Image 2025-11-03 at 01 11 00_adbe09b7](https://github.com/user-attachments/assets/5cf32474-ef50-4b42-a041-e5a4b20c9b29)
 
 # Project Overview
@@ -10,7 +11,7 @@ Designed to be compact, affordable, and reliable, this device serves as a portab
 
 Let's get started..
 
-![width="470" height="426" WhatsApp Image 2025-11-03 at 01 52 47_71ba6f60](https://github.com/user-attachments/assets/fa06f33c-ec9d-4b48-af69-86f4d810b911)
+![WhatsApp Image 2025-11-03 at 01 52 47_71ba6f60](https://github.com/user-attachments/assets/fa06f33c-ec9d-4b48-af69-86f4d810b911)
 
 
 # Features
@@ -42,6 +43,7 @@ Let's get started..
 
 # MAX303012 Sensor
 The MAX30102 is an integrated sensor module that acts as a heart rate monitor and pulse oximeter, used in wearable and health-monitoring devices. It works by shining red and infrared light through the skin (like a fingertip) and measuring the light's absorbance with a photodetector to calculate blood oxygen levels and heart rate. The device communicates via an I2C interface and has low-power features, including a shutdown mode that allows it to remain powered at all times.
+
 <img width="470" height="426" alt="MAX30102-Module-Pinout" src="https://github.com/user-attachments/assets/1d740e20-63be-4788-a6bf-865efb6f4de9" />
 
 How it works -->
