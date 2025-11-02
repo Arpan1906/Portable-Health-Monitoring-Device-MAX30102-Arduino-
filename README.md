@@ -10,7 +10,7 @@ Designed to be compact, affordable, and reliable, this device serves as a portab
 
 Let's get started..
 
-![WhatsApp Image 2025-11-03 at 01 52 47_71ba6f60](https://github.com/user-attachments/assets/fa06f33c-ec9d-4b48-af69-86f4d810b911)
+![width="470" height="426" WhatsApp Image 2025-11-03 at 01 52 47_71ba6f60](https://github.com/user-attachments/assets/fa06f33c-ec9d-4b48-af69-86f4d810b911)
 
 
 # Features
