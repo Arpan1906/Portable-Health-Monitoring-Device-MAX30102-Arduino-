@@ -1,3 +1,7 @@
+/*This example uses the MAX30102 to measure your blood oxygen level (SpO2). 
+This tells you how much oxygen is in your blood, which is usually between 95% and 100% in healthy people. Go ahead and try the sketch out. 
+After uploading the sketch to your Arduino, place your finger on the sensor. Keep still and wait a few seconds while the sensor collects data. The SpO2 reading will appear in the Serial Monitor once the sensor has enough data to calculate SpO2.*/
+
 #include <Wire.h>
 #include "MAX30105.h"
 #include "spo2_algorithm.h"
