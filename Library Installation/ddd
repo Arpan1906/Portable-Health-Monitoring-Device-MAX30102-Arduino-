@@ -1,0 +1,9 @@
+# Library Installation
+Communicating with the MAX30102 would be quite complicated if we had to write all the code ourselves. Fortunately, SparkFun Electronics has created a helpful library that makes things much easier.
+To install the library,
+
+- First open your Arduino IDE program. Then click on the Library Manager icon on the left sidebar.
+- Type “MAX3010x” in the search box to filter your results.
+- Look for SparkFun MAX3010x Pulse and Proximity Sensor Library by SparkFun Electronics.
+- Click the Install button to add it to your Arduino IDE.
+- Once the library is installed, you’re ready to write code and start collecting data from your sensor.
